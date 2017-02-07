@@ -1,4 +1,7 @@
 
+"""Functions to calculate churn probability, expected loss, 
+calibration, and discrimination"""
+
 
 def calibration(prob,outcome,n_bins=10):
     """Calibration measurement for a set of predictions.
@@ -96,3 +99,4 @@ def ChurnModel(df, X, y, model):
     
     # Return response DataFrame
     return response
+
